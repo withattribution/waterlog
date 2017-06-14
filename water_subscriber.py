@@ -16,8 +16,8 @@ logger.setLevel(logging.DEBUG)
 #topics will contain the sensor id for now something like version/deviceid123/dataLabel -- less verbose is more managable
 #so for instance alpha/alpha_deviceid123/temp
 
-TOPIC = 'alpha/+/temp'
-BROKER = 'mqtt://beaglebone.local'
+TOPIC = 'ALPHA/+/TEMP'
+BROKER = 'mqtt://192.168.0.100'
 MQTT_PORT = '4444'
 
 @asyncio.coroutine
